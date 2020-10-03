@@ -1,0 +1,16 @@
+/* For converting to PDF */
+body {
+    width: 210mm; /* A4 dimension */
+  }
+  @page {
+    margin:0;
+    padding: 0;
+  }
+
+/* Custom css */
+
+.box {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
